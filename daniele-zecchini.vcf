@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Zecchini;Daniele;;;
+FN:Daniele Zecchini
+ORG:Olivotics
+TITLE:Founder
+TEL;TYPE=CELL,VOICE:+39 352 052 4622
+EMAIL;TYPE=INTERNET,WORK:daniele@olivotics.com
+ADR;TYPE=WORK:;;Huberstusstraße 5, 310;Klagenfurt;;9020;Austria
+URL:https://olivotics.com
+END:VCARD

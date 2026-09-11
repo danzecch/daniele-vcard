@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daniele Zecchini — Olivotics</title>
+<meta name="description" content="Daniele Zecchini, Founder of Olivotics. Contact card.">
+<style>
+  :root{
+    --bg:#f4f2ee;
+    --card:#ffffff;
+    --ink:#1c1c1a;
+    --muted:#6b6b64;
+    --accent:#4d6b3f;
+    --accent-ink:#ffffff;
+    --line:#e5e2da;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#15150f;
+      --card:#1f1f18;
+      --ink:#f2f1ea;
+      --muted:#a8a69a;
+      --accent:#8fb579;
+      --accent-ink:#10190a;
+      --line:#33322a;
+    }
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    min-height:100vh;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    display:flex;
+    justify-content:center;
+    padding:40px 20px 60px;
+  }
+  .card{
+    width:100%;
+    max-width:400px;
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:20px;
+    padding:36px 28px 28px;
+    text-align:center;
+    box-shadow:0 1px 3px rgba(0,0,0,0.06);
+  }
+  .avatar{
+    width:84px;
+    height:84px;
+    margin:0 auto 20px;
+    border-radius:50%;
+    background:var(--accent);
+    color:var(--accent-ink);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:28px;
+    font-weight:600;
+    letter-spacing:0.5px;
+  }
+  h1{
+    font-size:22px;
+    margin:0 0 4px;
+    font-weight:600;
+  }
+  .role{
+    color:var(--muted);
+    font-size:15px;
+    margin:0 0 28px;
+  }
+  .role strong{
+    color:var(--ink);
+    font-weight:500;
+  }
+  .save-btn{
+    display:block;
+    width:100%;
+    padding:13px 16px;
+    background:var(--accent);
+    color:var(--accent-ink);
+    text-decoration:none;
+    border-radius:12px;
+    font-size:15px;
+    font-weight:600;
+    margin-bottom:28px;
+  }
+  .contacts{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:left;
+    border-top:1px solid var(--line);
+  }
+  .contacts li{
+    border-bottom:1px solid var(--line);
+  }
+  .contacts a{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    padding:14px 4px;
+    color:var(--ink);
+    text-decoration:none;
+    font-size:14.5px;
+  }
+  .icon{
+    flex:0 0 20px;
+    width:20px;
+    height:20px;
+    color:var(--muted);
+  }
+  .label{
+    display:block;
+    font-size:11.5px;
+    color:var(--muted);
+    text-transform:uppercase;
+    letter-spacing:0.4px;
+    margin-bottom:1px;
+  }
+  .value{
+    color:var(--ink);
+    line-height:1.35;
+  }
+  footer{
+    text-align:center;
+    color:var(--muted);
+    font-size:12px;
+    margin-top:22px;
+  }
+  footer a{ color:var(--muted); }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="avatar">DZ</div>
+    <h1>Daniele Zecchini</h1>
+    <p class="role"><strong>Founder</strong> · Olivotics</p>
+
+    <a class="save-btn" href="daniele-zecchini.vcf" download="Daniele Zecchini.vcf">Save Contact</a>
+
+    <ul class="contacts">
+      <li>
+        <a href="mailto:daniele@olivotics.com">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+          <span><span class="label">Email</span><span class="value">daniele@olivotics.com</span></span>
+        </a>
+      </li>
+      <li>
+        <a href="tel:+393520524622">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.5 2.1L8 9.7a16 16 0 0 0 6.3 6.3l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.7 2z"/></svg>
+          <span><span class="label">Phone</span><span class="value">+39 352 052 4622</span></span>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.google.com/maps/search/?api=1&query=Huberstusstra%C3%9Fe+5%2C+9020+Klagenfurt%2C+Austria" target="_blank" rel="noopener">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span><span class="label">Address</span><span class="value">Huberstusstraße 5, 310<br>9020 Klagenfurt, Austria</span></span>
+        </a>
+      </li>
+      <li>
+        <a href="https://olivotics.com" target="_blank" rel="noopener">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg>
+          <span><span class="label">Website</span><span class="value">olivotics.com</span></span>
+        </a>
+      </li>
+    </ul>
+    <footer>Olivotics — autonomous olive harvesting robots</footer>
+  </div>
+</body>
+</html>
